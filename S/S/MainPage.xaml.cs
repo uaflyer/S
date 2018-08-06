@@ -13,5 +13,9 @@ namespace S
 		{
 			InitializeComponent();
 		}
+        private void ToolbarItem_Activated(object sender, ElementEventArgs e)
+        {
+            Navigation.PushAsync(new TabPage());
+        }
 	}
 }

@@ -10,10 +10,9 @@ namespace S
 		public App ()
 		{
 			InitializeComponent();
-
-			MainPage = new MainPage();
+            
+			MainPage = new NavigationPage(new TabPage());
 		}
-
 		protected override void OnStart ()
 		{
 			// Handle when your app starts

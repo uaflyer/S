@@ -4,11 +4,8 @@
              xmlns:local="clr-namespace:S"
              x:Class="S.MainPage">
 
-    <StackLayout>
-        <!-- Place new controls here -->
-    	<Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
-    </StackLayout>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="NAV"/>
+    </ContentPage.ToolbarItems>
 
 </ContentPage>
